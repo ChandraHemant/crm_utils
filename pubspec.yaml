@@ -1,6 +1,6 @@
 name: crm_utils
 description: "Web html select option with serverside, look like CRM select2 library"
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/ChandraHemant/crm_utils
 
 environment:

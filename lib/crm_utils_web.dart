@@ -9,7 +9,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
 /// A web implementation of the CRMFlutterSelectbox plugin.
-class CRMFlutterSelectboxWeb {
+class CrmUtilsWeb {
   static void registerWith(Registrar registrar) {
     final MethodChannel channel = MethodChannel(
       'crm_utils',
@@ -17,7 +17,7 @@ class CRMFlutterSelectboxWeb {
       registrar,
     );
 
-    final pluginInstance = CRMFlutterSelectboxWeb();
+    final pluginInstance = CrmUtilsWeb();
     channel.setMethodCallHandler(pluginInstance.handleMethodCall);
   }
 
