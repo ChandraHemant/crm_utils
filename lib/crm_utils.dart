@@ -41,3 +41,9 @@ export 'src/utils/crm_utils_colscreen.dart';
 export 'src/utils/crm_utils_colorder.dart';
 export 'src/widgets/crm_col.dart';
 export 'src/widgets/crm_row.dart';
+
+export 'src/board_view/crm_board_view.dart';
+export 'src/board_view/crm_board_item.dart';
+export 'src/board_view/crm_board_list.dart';
+export 'src/board_view/crm_board_view_controller.dart';
+export 'src/board_view/crm_scrollbar.dart';
